@@ -8,10 +8,9 @@ import java.util.List;
 
 public class EmployeeRepository {
 
-	private static List<AbsStaffMember> members=new ArrayList<>();
+	private static List<AbsStaffMember> members = new ArrayList<>();
 	
 	public EmployeeRepository(){
-		
 	}
 	
 	public List<AbsStaffMember> getAllMembers(){

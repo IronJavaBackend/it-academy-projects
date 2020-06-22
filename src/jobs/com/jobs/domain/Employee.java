@@ -14,6 +14,8 @@ public class Employee extends AbsStaffMember {
 		this.paymentRate=paymentRate;
 	}
 
+
+
 	
 	@Override
 	public void pay() {

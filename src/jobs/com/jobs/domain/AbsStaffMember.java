@@ -26,4 +26,14 @@ public abstract class AbsStaffMember {
 	}
 
 	public abstract void pay();
+
+	@Override
+	public String toString() {
+		return "\n" +
+						"id=" + id +
+						", name='" + name + '\'' +
+						", address='" + address + '\'' +
+						", phone='" + phone + '\'' +
+						", totalPaid=" + totalPaid ;
+	}
 }
